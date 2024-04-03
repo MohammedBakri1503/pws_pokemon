@@ -1,0 +1,48 @@
+
+.status-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 1em;
+
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.error-title {
+    text-align: center;
+    color: #ff9999;
+}
+
+.error-message {
+    text-align: center;
+}
+
+.retry-button {
+    align-self: center;
+    font-size: 0.75em;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.loader {
+    border: 1em solid #f3f3f3;
+    border-top: 1em solid #3498db;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

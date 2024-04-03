@@ -1,0 +1,129 @@
+
+.battle-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2em;
+
+    margin: auto;
+}
+
+.opponent-display {
+    order: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+
+    margin: auto;
+    padding: 1em;
+}
+
+.opponent-selected-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+
+    margin: auto;
+}
+
+.opponent-pokemon-display {
+    order: 1;
+    align-self: center;
+    margin: auto;
+    padding: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+.opponent-pokemon-name {
+    order: 2;
+
+    font-size: 1.75em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+
+.opponent-pokemon-card {
+    order: 1;
+}
+
+.moves-panel {
+    order: 2;
+    align-self: center;
+}
+
+
+
+.arena-display {
+    order: 2;
+
+    margin: auto;
+    padding: 1em;
+}
+
+
+
+.user-display {
+    order: 3;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+
+    margin: auto;
+    padding: 1em;
+}
+
+.user-selected-display {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.user-pokemon-display {
+    order: 1;
+    align-self: center;
+    padding: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 1em;
+}
+
+.user-pokemon-name {
+    order: 1;
+
+    font-size: 1.75em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+
+.user-pokemon-card {
+    order: 2;
+}

@@ -1,0 +1,32 @@
+
+a {
+	text-decoration: none;
+	color: #9ca0b1;
+}
+
+.app-header {
+	text-align: center;
+	h1 {
+		color: #fff;
+		font-size: 4em;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-family: "Josefin Sans", cursive;
+		background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 4s linear infinite;
+		display: inline-block;
+	}
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

@@ -1,0 +1,10 @@
+
+.user-perform {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: cursive;
+
+    border: 0.1em dashed #3498db;
+    border-radius: 1.5em;
+    padding: 1em 4em;
+}

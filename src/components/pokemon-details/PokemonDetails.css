@@ -1,0 +1,113 @@
+
+.no-details {
+    padding: 2em;
+    margin: auto;
+    width: 20em;
+
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.pokemon-details {
+    padding: 2em;
+    margin: auto;
+    width: 20em;
+
+    font-size: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    row-gap: 1em;
+}
+
+.pokemon-name {
+    order: 1;
+
+    font-size:1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.details-display {
+    order: 2;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    column-gap: 1em;
+}
+
+.pokemon-data {
+    order: 1;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    row-gap: 1em;
+
+}
+
+.pokemon-perform {
+    order: 2;
+    align-self: center;
+    text-align: center;
+
+    border: 0.1em dashed #3498db;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+.pokemon-general ul {    
+    list-style-type: none;
+    padding: 0;
+
+    text-align: left;
+    font-size: 1em;
+}
+
+.pokemon-general li {
+    margin-bottom: 0.5em;
+}
+
+.pokemon-stats ul {
+    list-style-type: none;
+    padding: 0;
+
+    text-align: left;
+}
+
+.pokemon-stats li {
+    margin-bottom: 0.25em;
+    font-size: 0.75em;
+}
+
+.pokemon-perform ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pokemon-perform li {
+    margin-bottom: 0.75em;
+}
+
+.pokemon-wins {
+    color: #00cc00;
+}
+
+.pokemon-losses {
+    color: #e57373;
+}
+
+.pokemon-rate {
+    color: #ffc107;
+}
